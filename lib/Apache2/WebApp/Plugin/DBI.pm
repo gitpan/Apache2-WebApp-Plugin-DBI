@@ -23,7 +23,7 @@ use base 'Apache2::WebApp::Plugin';
 use DBI;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -99,7 +99,7 @@ This package is part of a larger distribution and was NOT intended to be used
 directly.  In order for this plugin to work properly, the following packages
 must be installed:
 
-  Apache2::WebApp::Toolkit
+  Apache2::WebApp
   DBI
   Params::Validate
 
@@ -128,7 +128,7 @@ this process to insure write permission is allowed within the installation direc
 
 =head1 CONFIGURATION
 
-Add the following to your projects I<webapp.conf>
+Unless it already exists, add the following to your projects I<webapp.conf>
 
   [database]
   driver      = mysql

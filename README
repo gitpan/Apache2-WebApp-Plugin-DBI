@@ -18,7 +18,7 @@ PREREQUISITES
     used directly. In order for this plugin to work properly, the following
     packages must be installed:
 
-      Apache2::WebApp::Toolkit
+      Apache2::WebApp
       DBI
       Params::Validate
 
@@ -46,7 +46,8 @@ INSTALLATION
     within the installation directory.
 
 CONFIGURATION
-    Add the following to your projects *webapp.conf*
+    Unless it already exists, add the following to your projects
+    *webapp.conf*
 
       [database]
       driver      = mysql

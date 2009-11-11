@@ -14,6 +14,6 @@ BEGIN {
 
 my $obj = new Apache2::WebApp::Plugin::DBI;
 
-isa_ok ( $obj, 'Apache2::WebApp::Plugin::DBI' );
+isa_ok( $obj, 'Apache2::WebApp::Plugin::DBI' );
 
 done_testing();
