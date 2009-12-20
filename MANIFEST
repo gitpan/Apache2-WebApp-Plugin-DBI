@@ -11,7 +11,7 @@ usr/share/webapp-toolkit/plugin_conf/DBI.tt
 usr/share/webapp-toolkit/plugin_startup/DBI.tt
 t/001_load.t
 t/002_basic.t
-t/app/Test.pm
+t/app/Basic/Test.pm
 t/conf/extra.conf.in
 t/conf/extra.last.conf.in
 t/conf/startup.pl.in
