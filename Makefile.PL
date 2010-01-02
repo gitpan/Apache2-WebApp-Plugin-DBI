@@ -22,7 +22,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Apache::Test'     => 0,
         'Apache::DBI'      => 1.07,
-        'Apache2::WebApp'  => 0.01,
+        'Apache2::WebApp'  => 0.21,
         'DBI'              => 1.602,
         'Params::Validate' => 0,
     },
@@ -39,6 +39,6 @@ sub clean_files {
 sub MY::postamble {
 '
 install::
-	cp -rv usr/share/webapp-toolkit/plugin_* /usr/share/webapp-toolkit
+	cp -rv usr/share/webapp-toolkit/plugin* /usr/share/webapp-toolkit
 ';
 }

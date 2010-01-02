@@ -6,9 +6,9 @@ Changes
 Makefile.PL
 META.yml
 lib/Apache2/WebApp/Plugin/DBI.pm
-usr/share/webapp-toolkit/plugin_base/DBI.tt
-usr/share/webapp-toolkit/plugin_conf/DBI.tt
-usr/share/webapp-toolkit/plugin_startup/DBI.tt
+usr/share/webapp-toolkit/plugin/base/DBI.tt
+usr/share/webapp-toolkit/plugin/conf/DBI.tt
+usr/share/webapp-toolkit/plugin/startup/DBI.tt
 t/001_load.t
 t/002_basic.t
 t/app/Basic/Test.pm
