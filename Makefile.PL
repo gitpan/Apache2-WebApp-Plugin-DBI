@@ -22,14 +22,14 @@ WriteMakefile(
     PREREQ_PM => {
         'Apache::Test'     => 0,
         'Apache::DBI'      => 1.07,
-        'Apache2::WebApp'  => 0.21,
+        'Apache2::WebApp'  => 0.30,
         'DBI'              => 1.602,
         'Params::Validate' => 0,
     },
     clean => {
         FILES => "@{ clean_files() }",
     }
-);
+  );
 
 sub clean_files {
     return [@scripts];

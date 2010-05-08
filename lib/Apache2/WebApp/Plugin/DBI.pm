@@ -23,7 +23,7 @@ use base 'Apache2::WebApp::Plugin';
 use DBI;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -115,11 +115,11 @@ From source:
 
 Perl one liner using CPAN.pm:
 
-  perl -MCPAN -e 'install Apache2::WebApp::Plugin::DBI'
+  $ perl -MCPAN -e 'install Apache2::WebApp::Plugin::DBI'
 
 Use of CPAN.pm in interactive mode:
 
-  $> perl -MCPAN -e shell
+  $ perl -MCPAN -e shell
   cpan> install Apache2::WebApp::Plugin::DBI
   cpan> quit
 
