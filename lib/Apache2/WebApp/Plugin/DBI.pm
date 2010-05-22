@@ -6,7 +6,7 @@
 #
 #  A database independent interface that gives your application universal
 #  supports across many databases including MySQL, PostGRe, and Oracle.
-#  Also supports many common flat file formats. 
+#  Also supports many common flat file formats.
 #
 #  AUTHOR
 #  Marc S. Brooks <mbrooks@cpan.org>
@@ -23,7 +23,7 @@ use base 'Apache2::WebApp::Plugin';
 use DBI;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -100,6 +100,7 @@ directly.  In order for this plugin to work properly, the following packages
 must be installed:
 
   Apache2::WebApp
+  Apache::DBI
   DBI
   Params::Validate
 
@@ -110,7 +111,7 @@ From source:
   $ tar xfz Apache2-WebApp-Plugin-DBI-0.X.X.tar.gz
   $ perl MakeFile.PL PREFIX=~/path/to/custom/dir LIB=~/path/to/custom/lib
   $ make
-  $ make test     <--- Make sure you do this before contacting me
+  $ make test
   $ make install
 
 Perl one liner using CPAN.pm:
@@ -153,11 +154,11 @@ Make a new database connection.
       commit    => 1 || 0,
     });
 
-    my $sth = $dbh->prepare("SELECT * FR..");
+  my $sth = $dbh->prepare("SELECT * FR..");
 
 =head1 SEE ALSO
 
-L<Apache2::WebApp>, L<Apache2::WebApp::Plugin>, L<DBI>
+L<Apache2::WebApp>, L<Apache2::WebApp::Plugin>, L<Apache::DBI>, L<DBI>
 
 =head1 AUTHOR
 

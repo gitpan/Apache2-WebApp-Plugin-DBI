@@ -25,6 +25,7 @@ WriteMakefile(
         'Apache2::WebApp'  => 0.30,
         'DBI'              => 1.602,
         'Params::Validate' => 0,
+        'Test::More'       => 0,
     },
     clean => {
         FILES => "@{ clean_files() }",
