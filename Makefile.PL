@@ -22,7 +22,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Apache::Test'     => 0,
         'Apache::DBI'      => 1.07,
-        'Apache2::WebApp'  => 0.30,
+        'Apache2::WebApp'  => 0.38,
         'DBI'              => 1.602,
         'Params::Validate' => 0,
         'Test::More'       => 0,
