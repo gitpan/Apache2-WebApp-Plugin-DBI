@@ -23,7 +23,7 @@ use base 'Apache2::WebApp::Plugin';
 use DBI;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.09;
+our $VERSION = 0.10;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 

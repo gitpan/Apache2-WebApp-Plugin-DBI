@@ -7,3 +7,7 @@ Revision history for Perl module Apache2::WebApp::Plugin::DBI
     - Updated license field in META.yml to fix 'License Unknown' issue on CPAN
     - Updated PREREQ_PM module versions in Makefile.PL
     - Updated module versions in META.yml requires field.
+build script template
+
+0.10
+    - Added $(PREFIX) in Makefile.PL to build script template install path.
